@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: rgb(214, 210, 210);
+}
+
+h1 {
+    margin: 10px;
+    color: rgba(250, 128, 114, 0.74);
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    color: salmon;
+    font-weight: 600;
+    margin: 15px 0;
+    padding: 10px 35px;
+    font-size: 20px;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: 0px 0px 5px gray ;
+    color: white;
+    background-color: salmon;
+}
+
+.button-input {
+    padding: 15 15px;
+    height: 100%;
+}
+.input-search {
+    font-size: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: none;
+    width: 30%;
+    outline: none;
+    height: 100%;
+}
+.filter-container {
+    margin: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cantidad {
+    font-size: 20px;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+#filter {
+    font-size: 18px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 50px;
+    padding: 10px 50px;
+}
